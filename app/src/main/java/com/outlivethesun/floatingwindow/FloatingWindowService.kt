@@ -14,6 +14,8 @@ import android.widget.LinearLayout
 
 class FloatingWindowService : Service() {
 
+    //Tutorial: https://www.youtube.com/watch?v=kjGPE_XLmwgs
+
     private lateinit var windowManager: WindowManager
     private lateinit var linearLayout: LinearLayout
     private lateinit var windowManagerLayoutParams: WindowManager.LayoutParams
